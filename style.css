@@ -52,5 +52,68 @@ header{
 main {
     display:flex;
     justify-content: center;
-    margin-top:15em;
-}    
+    margin-top:14em;
+}
+
+#triangle{
+    position:relative;
+    
+}
+
+#container-paper{
+    position:absolute;
+    left:46em;
+    top:23em;
+}
+
+#container-scissors{
+    position:absolute;
+    left:63em;
+    top:23em;
+    border:15px solid hsl(40, 84%, 53%);
+    box-shadow: 0px 5px 0px hsl(36, 91%, 40%);
+}
+
+#container-rock{
+    position:absolute;
+    top:35em;
+    border:15px solid hsl(349, 70%, 56%);
+    box-shadow: 0px 5px 0px hsl(345, 74%, 39%);
+}
+
+.circle{
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    border:15px solid hsl(230, 89%, 65%);
+    box-shadow: 0px 5px 0px hsl(230, 77%, 57%);
+}
+.smallCircle{
+    width:125px;
+    height:123px;
+    margin-top:3px;
+    border-radius:50%;
+    background-color:white;
+    box-shadow: 0px 0px 0px rgb(191, 210, 233), 
+            0px -5px rgb(191, 210, 233);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container-rulers{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    width:150px;
+    height:50px;
+    border:2px solid hsl(217, 46%, 74%);
+    border-radius:15px;
+    margin-left:auto;
+    margin-right:50px;
+    margin-top:100px;
+    cursor:pointer;
+}
+
